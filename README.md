@@ -107,7 +107,16 @@
 
 ## 🤝 Connect With Me
 <p align="center">
-  <a href="https://www.linkedin.com/in/janani-shanmugam/"><img src="https://img.shields.io/badge/LinkedIn-Janani%20Shanmugam-blue?style=for-the-badge&logo=linkedin"></a>
-  <a href="mailto:jananishanmugam31@gmail.com"><img src="https://img.shields.io/badge/Email-Janani%20Shanmugam-red?style=for-the-badge&logo=gmail"></a>
-  <a href="https://janani31-shan.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-Janani%20Shanmugam-green?style=for-the-badge&logo=githubpages"></a>
+  <a href="https://www.linkedin.com/in/janani-shanmugam31oct2003" target="blank">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://janani31-shan.github.io/Portfolio/" target="blank">
+    <img src="https://img.shields.io/badge/Portfolio-%23FF5722.svg?&style=for-the-badge&logo=Google-chrome&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="mailto:jananishanmugam37@gmail.com" target="blank">
+    <img src="https://img.shields.io/badge/Gmail-red?logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://github.com/janani31-shan" target="blank">
+    <img src="https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white" alt="GitHub"/>
+  </a>  
 </p>
