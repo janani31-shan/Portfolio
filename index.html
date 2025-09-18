@@ -1,328 +1,197 @@
-
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-
-  <!-- Put your site title here -->
-  <title>
-    JANANI SHANMUGAM | Web Developer & App Creator.
-  </title>
-
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
-  <link rel="stylesheet" href="index.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Janani Shanmugam — Web Developer · UI/UX · Oracle Fusion</title>
+  <meta name="description" content="Janani Shanmugam — Full‑stack web developer, UI/UX designer and Oracle Fusion enthusiast. Portfolio and resume." />
+  <meta name="keywords" content="Janani Shanmugam, Web Developer, UI/UX, Oracle Fusion, React, Node.js, MongoDB" />
+<link rel="stylesheet" href="./index.css">
 </head>
-
 <body>
-
-  <!-- ***** Header ***** -->
 
   <header class="header" role="banner" id="top">
     <div class="row">
-      <nav class="nav" role="navigation">
+      <nav class="nav" role="navigation" aria-label="Primary">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="#Co-curricular Activities" class="nav__link">Co-curricular Activities</a></li>
-          <li class="nav__item"><a href="#Skills" class="nav__link">Skills</a></li>
-          <li class="nav__item"><a href="#Education History" class="nav__link">Education History</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#activities">Co‑curricular</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#education">Education</a></li>
+          <li><a class="nav__link" href="#internship">Internship</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="header__text-box row">
+
+    <div class="row header__text-box">
       <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>JANANI SHANMUGAM</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>Web Developer & APP CREATOR.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch to my detail</a>
+        <h1 class="heading-primary">JANANI SHANMUGAM</h1>
+        <h4>B-TECH (COMPUTER TECHNOLOGY) - (2021-2025 PASSEDOUT)</h4>
+        <p>Full‑stack Web Developer (MERN STACK) · UI/UX Designer · Oracle Fusion (VBCS &amp; OIC)</p>
+        <a class="btn btn--primary" href="#contact">Get in touch</a>
       </div>
     </div>
   </header>
 
-  <main role="main">
+  <main>
 
-    <!-- ***** Work ***** -->
-
-    <section class="project" id="projects">
+    <section id="projects" aria-labelledby="projects-heading">
       <div class="row">
-        <h2>My Projects</h2>
-        <div class="project__boxes">
+        <h2 id="projects-heading">My Projects</h2>
+        <div class="projects-grid">
 
-          <!-- Each div with the work__box class is a project. -->
+          <article class="project__card" aria-labelledby="p1">
+            <h3 id="p1">Portfolio Template</h3>
+            <p>A free, open‑source portfolio template built with HTML, CSS and JavaScript.</p>
+            <ul class="project__list"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Parcel</li></ul>
+            <img src="./images/project-1.png" alt="Screenshot of portfolio template">
+          </article>
 
-          <div class="project__box">
-            <div class="project__text">
-              <h3>Portfolio Template</h3>
-              <p>
-                A free Open Source Portfolio for anyone to use for free.
-              </p>
-              <ul class="project__list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
+          <article class="project__card" aria-labelledby="p2">
+            <h3 id="p2">Action Platform (Auction System)</h3>
+            <p>Secure accounts, real‑time bidding, seller chat and Stripe payments with invoice generation.</p>
+            <ul class="project__list"><li>React.js</li><li>Express.js</li><li>Node.js</li><li>Netlify/Heroku</li></ul>
+            <img src="./images/project-2.png" alt="Screenshot of auction platform">
+          </article>
 
-              
-            <div class="projectk__image-box">
-              <img src="./images/project-1.png" class="project__image" alt="Project 1" />
-            </div>
-          </div>
+          <article class="project__card" aria-labelledby="p3">
+            <h3 id="p3">AR App for Monuments</h3>
+            <p>An augmented reality tour app showing 3D reconstructions and animated storytelling for historic monuments.</p>
+            <ul class="project__list"><li>Unity</li><li>Vuforia</li><li>Blender</li><li>Android Studio</li></ul>
+            <img src="./images/project-3.png" alt="AR monument app mockup">
+          </article>
 
-          <div class="project__box">
-            <div class="project__text">
-              <h3>Action Platform</h3>
-              <p>
-                Secure online auctions with real-time bidding, automatic notifications, and seamless payment processing. 
-                Win more and manage it all easily.
-              </p>
-              <ul class="project__list">
-                <li>React.js</li>
-                <li>Express.js</li>
-                <li>Node.js</li>
-                <li>Heroku for FrontEnd</li>
-                <li>Netlify for Backend</li>
-              </ul>
+          <article class="project__card" aria-labelledby="p4">
+            <h3 id="p4">Ride‑hailing Service</h3>
+            <p>Mobile booking with live tracking, secure payments and efficient geolocation routing.</p>
+            <ul class="project__list"><li>Flutter / Kotlin</li><li>Node.js</li></ul>
+            <img src="./images/project-4.jpeg" alt="Ride hailing app screen">
+          </article>
 
-              
-            <div class="project__image-box">
-              <img src="./images/project-2.png" class="project__image" alt="Project 1" />
-            </div>
-          </div>
+          <article class="project__card" aria-labelledby="p5">
+            <h3 id="p5">Renewable Charging System for E‑Vehicles</h3>
+            <p>Design and prototype of fast &amp; renewable charging solutions for electric vehicles.</p>
+            <ul class="project__list"><li>SolidWorks</li><li>Electrical Design</li><li>Arduino</li><li>Fabrication</li></ul>
+            <img src="./images/project-5.jpeg" alt="Charging station prototype">
+          </article>
 
-          <div class="project__box">
-            <div class="project__text">
-              <h3>Ar app for monuments</h3>
-              <p>
-                Explore India like never before! This AR app brings history to life – 3D wonders, 
-                animated stories, all at your fingertips.
-              </p>
-              <ul class="project__list">
-                <li>Mobile Phone</li>
-                <li>Blender</li>
-                <li>Vuforia</li>
-                <li>Unity</li>
-                <li>Andriod Studios</li>
-                
-              </ul>
+          <article class="project__card" aria-labelledby="p6">
+            <h3 id="p6">Object Detection (ML/DL)</h3>
+            <p>Object counting and detection using R‑CNN / YOLO with image preprocessing and video processing pipelines.</p>
+            <ul class="project__list"><li>R‑CNN</li><li>YOLO</li><li>Image Processing</li><li>Video Processing</li></ul>
+            <img src="./images/project-6.jpg" alt="Object detection demo image">
+          </article>
 
-              
-            <div class="project__image-box">
-              <img src="./images/project-3.png" class="project_image" alt="Project 3" />
-            </div>
-          </div>
-          <div class="project__box">
-            <div class="project__text">
-              <h3>Ride haliling service</h3>
-              <p>
-                My ride-hailing app ignited a transportation revolution. User-friendly booking, live tracking, 
-                and secure payments put you in control. Plus, my dynamic geolocation 
-                routing gets you there smarter, not harder.
-              </p>
-              <ul class="project__list">
-                <li>Flutter or Kotlin</li>
-                <li>Node</li>
-                
-              </ul>
-
-              
-            <div class="project__image-box">
-              <img src="./images/project-4.jpeg" class="project__image" alt="Project 1" />
-            </div>
-          </div>
-          <div class="project__box">
-            <div class="project__text">
-              <h3>Renewable charging system for E-Vehicles</h3>
-              <p>
-                No more range anxiety! We've got speed demons covered with 
-                lightning-fast charging, explorers with extended range options, and innovators 
-                with a revolutionary charging solution. The future of electric driving is here.
-              </p>
-              <ul class="project__list">
-                <li>Solidworks</li>
-                <li>Electrical</li>
-                <li>Arduino Programming</li>
-                <li>Fabrication</li>
-                
-              </ul>
-
-              
-            <div class="project__image-box">
-              <img src="./images/project-5.jpeg" class="project__image" alt="Project 1" />
-            </div>
-          </div>
-          <div class="project__box">
-            <div class="project__text">
-              <h3>Build your own object detection using ML/DL</h3>
-              <p>
-                Skip counting objects one by one! This method estimates object count directly 
-                from images, speeding up tasks like cell microscopy, crowd monitoring, and 
-                wildlife census.
-              </p>
-              <ul class="project__list">
-                <li>R-CNN</li>
-                <li>YOLO</li>
-                <li>IMAGE POLISHING</li>
-                <li>VIDEO PROCESSING</li>
-                
-              </ul>
-
-              
-            </div>
-            <div class="project__image-box">
-              <img src="./images/project-6.jpg" class="project__image" alt="Project 1" />
-            </div>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
-
-    <section class="Co-curricular Activities" id="Co-curricular Activities">
+    <section id="activities" aria-labelledby="activities-heading">
       <div class="row">
-        <h2>Co-curricular Activities</h2>
-        <h3>Competitions</h3>
-        <p1>
-          Secured First prize in project pressentation by TECH AZNRA at HINDUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY in Apr 2023<br>
-          Participating the Grand Finale in SMART INDIA HACKATHON, 2022 in Aug 2022 <br>
-          Participating the Final Round in AAKRUTI 2022 design at DASSAULT SYSTEMS in 2022 (6th prize)<br>
-          Participating upto 4th round  in AAKRUTI 2023 design at DASSAULT SYSTEMS in 2023<br>
-          </p1>
-      </div>
-    </section>
-    
-    
-    <section class="Skills" id="Skills">
-      <div class="row">
-        <h2>Skills</h2>
-        <h1>Expertize At Web and App Development</h1>
-        <p1>
-          Front-end: HTML, CSS, JavaScript, React JS <br>
-          Back-end: SQL, MongoDB, Node JS, Express JS <br>
-          </p1>
-        <h1>Other Software skills</h1> 
-        <p1>c <br> Python</p1>
-        <h1>UI/UX Design</h1>
-        <p1>Canva <br> Figma</p1>
-        <h1>AREAS OF INTEREST</h1>
-        <p1>Web Developer <br> App Developer <br> UI Designer</p1>
+        <h2 id="activities-heading">Co‑curricular Activities</h2>
+        <h3>Competitions &amp; Awards</h3>
+        <p>Secured <b>st prize in project presentation at TECH AZNRA</b> — Hindusthan College of Engineering and Technology (April 2023).</p>
+        <p>Participated in <b>Smart India Hackathon Grand Finale </b>(August 2022).</p>
+        <p>6th Prize – <b>AAKRUTI 2022 Design </b>Contest by Dassault Systems</p>
+        <p>Up to 4th Round – AAKRUTI 2023 Design Contest by <b>Dassault Systems</b></p>
       </div>
     </section>
 
-    <section class="Education History" id="Education History">
+    <section id="skills" aria-labelledby="skills-heading">
       <div class="row">
-        <h2>Education History</h2>
-        <h1>B-TECH - COMPUTER TECHNOLOGY</h3>
-        <p1>BANNARI AMMAN INSTITUTE OF TECHNOLOGY <br>
-          7.78 SGPA (upto 5th semester)</p1>
-        <h1>HIGHER SECONDARY SCHOOL</h1>
-        <p2>SRI VIDHYA MANDIR HIGHER SECONDARY SCHOOL <br>
-          81.0% </p2>
-        <h1>SECONDARY SCHOOL</h1>
-        <p3>SRI VIDHYA MANDIR HIGHER SECONDARY SCHOOL <br>
-          77.0%</p3>
-        
-  
+        <h2 id="skills-heading">Skills</h2>
+        <p><strong>Client-side:</strong> JavaScript (ES6+), HTML5, CSS3, React.js</p>
+        <p><strong>Server-side:</strong> Node.js, Express.js</p>
+        <p><strong>Database:</strong> MongoDB, SQL</p>
+        <p><strong>APIs:</strong> RESTful, SOAP</p>
+        <p><strong>Programming:</strong> Python (Intermediate)</p>
+        <p><strong>UI/UX:</strong> Figma, Canva</p>
+        <p><strong>Oracle Fusion:</strong> OIC (Oracle Integration Cloud), VBCS (Visual Builder Cloud Service)</p>
       </div>
     </section>
 
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
+    <section id="education" aria-labelledby="education-heading">
       <div class="row">
-        <h2>About Me</h2>
+        <h2 id="education-heading">Education</h2>
+        <h3>B.Tech — Computer Technology</h3>
+        <p>Bannari Amman Institute of Technology — 8.14 SGPA (up to 8th semester)</p>
+        <h3>Higher Secondary</h3>
+        <p>Sri Vidhya Mandir Higher Secondary School — 81%</p>
+        <h3>Secondary</h3>
+        <p>Sri Vidhya Mandir Higher Secondary School — 77%</p>
+      </div>
+    </section>
+
+    <section id="internship" aria-labelledby="internship-heading">
+      <div class="row">
+        <h2 id="internship-heading">Cloudvice Internship</h2>
+        <p><strong>OIC &amp; VBCS in Oracle Fusion:</strong> Practical experience with Visual Builder Cloud Service and Oracle Integration Cloud.</p>
+        <p><strong>Web Dev Bootcamp:</strong> Completed a five‑month Udemy full‑stack web development bootcamp.</p>
+        <p><strong>Object Detection Project:</strong> Work on R‑CNN, YOLO, image polishing and video processing.</p>
+      </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-heading">
+      <div class="row">
+        <h2 id="about-heading">About Me</h2>
         <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Dedicated full-stack engineer looking for a challenging position with a 
-              respectable company. I have a passion for technology. 
-              Possessing a thorough understanding of both front-end and 
-              back-end development, I enjoy working in groups and actively look for chances to make a
-              meaningful contribution. I'm committed to broadening my skill set and taking on challenging initiatives that 
-              challenge me because I'm a lifelong learner. 
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="https://drive.google.com/file/d/16bbBNLawICrNmvVbM3tysI4taUNNqMAL/view?usp=sharing" class="btn">My Resume</a>
+          <div>
+            <p>Dedicated full‑stack engineer passionate about building user‑centred products. Strong interest in front‑end and back‑end development, design systems, and cloud integrations. Lifelong learner who enjoys collaboration and tackling challenging problems.</p>
+            <p><a class="btn" href="https://drive.google.com/file/d/1VqCOao9byMRGdl160I_hWNu9P7k6B3fF/view?usp=sharing" target="_blank" rel="noopener">View Resume</a></p>
           </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/profile.jpeg" alt="profile" />
+          <div>
+            <img class="about__photo" src="./images/profile.jpeg" alt="Janani Shanmugam — profile photo">
           </div>
         </div>
       </div>
     </section>
+
   </main>
 
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
+  <section id="contact" aria-labelledby="contact-heading">
     <div class="row">
-      <h2>Personal Details</h2>
+      <h2 id="contact-heading">Contact &amp; Personal Details</h2>
       <div class="contact__info">
-        <p>
-          Phone Number:91 9360201591 <br>
-          Email Id: jananishanmugam37@gmail.com <br>
-          Father Name:  Mr. Shanmugam k <br>
-          Mother Name:  Mrs. JayaLakshmi Shanmugam <br>
-          Date Of Birth: 31 October 2003 <br>
-          Languages Known: Tamil [R_W_S],  English [R_W_S]
+        <p> Name: Janani Shanmugam <br>Phone: +91 93602 01591<br>
+        Email: <a href="mailto:jananishanmugam37@gmail.com">jananishanmugam37@gmail.com</a><br>
+        Date of Birth: 31 October 2003<br>
+        Languages: Tamil (R/W/S), English (R/W/S)
         </p>
-        <!-- Replace the email with yours -->
         <a href="mailto:jananishanmugam37@gmail.com" class="btn">Gmail</a>
       </div>
     </div>
   </section>
 
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
+  <footer class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        
-        <li class="footer__social-link-item">
-          <a href="https://github.com/janani31-shan" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/janani-shanmugam-9b6546265/">
-            <img src="./images/linkedin.svg" title="Link for Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
+      <ul class="footer__social-links" aria-label="Social links">
+        <li><a href="https://github.com/janani31-shan" target="_blank" rel="noopener" title="GitHub"><img src="./images/github.svg" alt="GitHub icon" width="36"></a></li>
+        <li><a href="https://www.linkedin.com/in/janani-shanmugam31oct2003/" target="_blank" rel="noopener" title="LinkedIn"><img src="./images/linkedin.svg" alt="LinkedIn icon" width="36"></a></li>
       </ul>
-
-      
-      <p>
-        This is my simple portfolio resume
-      </p>
-      
+      <p>This is my simple portfolio resume BY 2025 Janani Shanmugam.</p>
     </div>
   </footer>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  <a class="back-to-top" href="#top" id="backToTop" aria-label="Back to top" title="Back to top">
+    ↑
   </a>
-  <script src="./index.js"></script>
-</body>
 
+  <script>
+    // Back to top visibility
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) backToTop.classList.add('show'); else backToTop.classList.remove('show');
+    });
+
+    // Simple keyboard focus ring for accessibility (shows on keyboard navigation)
+    (function(){
+      function handleFirstTab(e) {
+        if (e.key === 'Tab') document.body.classList.add('user-is-tabbing');
+      }
+      window.addEventListener('keydown', handleFirstTab, { once: true });
+    })();
+  </script>
+</body>
 </html>
